@@ -1,7 +1,5 @@
 # ============================================================
-# TASK 3: Car Price Prediction with Machine Learning
-# CodeAlpha Data Science Internship
-# Student: Zoha Yousaf | ID: CA/DF1/83644
+#Project: Car Price Prediction with Machine Learning
 # ============================================================
 
 import pandas as pd
@@ -153,4 +151,4 @@ sample_data = pd.DataFrame({
 pred_price = best['model'].predict(sample_data)[0]
 print(f"Car   : 5-year-old Petrol, 40,000 km, Present Price 6L")
 print(f"Predicted Selling Price : ₹ {pred_price:.2f} Lakhs")
-print("\nTask 3 Complete!")
+print("\nProject Complete!")
