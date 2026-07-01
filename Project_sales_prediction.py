@@ -1,7 +1,5 @@
 # ============================================================
-# TASK 4: Sales Prediction using Python
-# CodeAlpha Data Science Internship
-# Student: Zoha Yousaf | ID: CA/DF1/83644
+# Project : Sales Prediction using Python
 # ============================================================
 
 import pandas as pd
@@ -185,4 +183,4 @@ sample = pd.DataFrame({
 pred_sales = best['model'].predict(sample)[0]
 print(f"Budget: TV=$150K  Radio=$30K  Newspaper=$20K")
 print(f"Predicted Sales : {pred_sales:.2f} units")
-print("\nTask 4 Complete!")
+print("\nProject Complete!")
